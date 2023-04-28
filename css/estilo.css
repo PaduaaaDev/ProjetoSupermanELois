@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.dimensoes-secoes {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.topo {
+    width: 100%;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4710c1;
+    color: #ffffff;
+    padding: 20px 0 20px 200px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.topo div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 20px;
+}
+
+.topo span {
+    margin: 0 30px;
+}
+
+.topo a {
+    background-color: #ffffff;
+    color: #4710c1;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 17px;
+    margin: 0 6px;
+    border-radius: 20px;
+}
+
+.capa {
+    width: 100%;
+}
+
+.sinopse, .disponibilidade {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.sinopse p, .disponibilidade p, .secao p {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 30px;
+
+}
+
+.disponibilidade h2 {
+    margin: 20px 0;
+}
+
+.disponibilidade img {
+    width: 100%;
+}
+
+.galeria-fotos img {
+    width: 500px;
+    height: 250px;
+    margin: 0 15px;
+    box-shadow: 10px 10px 10px #939393;
+
+}
+
+.galeria-fotos {
+    display: flex;
+    overflow-x: scroll;
+    margin: 20px 0;
+}
+
+.rodape {
+    width: 100%;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4710c1;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
